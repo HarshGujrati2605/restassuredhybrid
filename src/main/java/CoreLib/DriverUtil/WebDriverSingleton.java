@@ -3,6 +3,7 @@ package CoreLib.DriverUtil;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -12,9 +13,9 @@ public class WebDriverSingleton {
 	
 	public static WebDriver driver;
 	
-	@BeforeTest
+	@BeforeClass
 	public static WebDriver setupDriver() throws IOException {
-		System.out.println("*****"+ "Befor test is executing");
+		System.out.println("*****"+ "Befor class is executing");
 		if (driver == null) {
 			DriverUtils.driverInitialization();
 			driver = DriverUtils.getDriver();

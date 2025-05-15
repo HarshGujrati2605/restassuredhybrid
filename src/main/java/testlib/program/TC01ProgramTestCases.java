@@ -103,40 +103,9 @@ public class TC01ProgramTestCases extends programpojo {
 		String response = given().log().all().spec(Academiaspecs.academiaspecbuilder()).contentType(ContentType.JSON)
 				.accept(ContentType.JSON).body(PayloadProgramModule.payloadCourseMapping()).when().post().then().log()
 				.all().statusCode(200).extract().response().asString();
-		
+
 		setBatchcourseidreceived(response);
 
 	}
-	
-	
-//	@Test(testName = "Course creation in batch", dependsOnMethods = "courseCreationwithBatch")
-//	public void courseMappingwithBatch() throws Exception {
-//
-//		RestAssured.basePath = "rest/programCoursePeriod/createUpdateProgramCoursePeriod";
-//		RestAssured.useRelaxedHTTPSValidation();
-//		String response = given().log().all().spec(newsandfeedspecs.academiaspecbuilder()).contentType(ContentType.JSON)
-//				.accept(ContentType.JSON).body(PayloadProgramModule.payloadCourseMappingwithPeriod()).when().post().then().log()
-//				.all().statusCode(200).extract().response().asString();
-//	
-//	}
-	
-	
-	@Test(testName = "Login")
-    public void setup() throws Exception {
-	
-		WebDriverSingleton.setupDriver().get(BaseClass.getUrl());
-		WebDriverSingleton.setupDriver().manage().window().maximize();
-		
-		
-		
-			
-	}
-	
-	
-	
-	
-	
-	
-	
 
 }
