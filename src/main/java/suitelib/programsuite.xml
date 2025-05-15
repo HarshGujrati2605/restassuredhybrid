@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testlib.testcases.programtestcases.TC01ProgramTestCases"/>
+      <class name="testlib.program.TC01ProgramTestCases"/>
+        <class name="testlib.admissions.TC01Login"/>
+        <class name="testlib.program.TC02SeachProgramAndParameterized"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
