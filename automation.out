@@ -1,0 +1,10 @@
+2025-05-15 14:05:167 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-15 14:05:336 INFO  SeleniumActions:189 - i Click on the element Admin Tab
+2025-05-15 14:05:343 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-15 14:05:656 INFO  SeleniumActions:189 - i Click on the element Username field
+2025-05-15 14:05:875 INFO  SeleniumActions:189 - Clicked onUsername field
+2025-05-15 14:05:878 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-15 14:05:96 INFO  SeleniumActions:189 - i Click on the element Password field
+2025-05-15 14:05:247 INFO  SeleniumActions:189 - Clicked onPassword field
+2025-05-15 14:05:258 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-15 14:05:400 INFO  SeleniumActions:189 - i Click on the element Login button
