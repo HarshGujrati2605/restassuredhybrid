@@ -1,6 +1,6 @@
 package CoreLib.javautilities;
 
-import payloadutilitis.LibraryPojoclass;
+import AppLib.ApiLib.payloadutils.LibraryPojoclass;
 
 public class Objects {
 	

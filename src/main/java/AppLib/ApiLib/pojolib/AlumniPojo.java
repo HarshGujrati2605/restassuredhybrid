@@ -1,6 +1,6 @@
 package AppLib.ApiLib.pojolib;
 
-import variableutility.GlobalVariable;
+import CoreLib.VariableUtil.GlobalVariable;
 
 public class AlumniPojo extends GlobalVariable {
 	public static String getAlumninewsfeedname() {

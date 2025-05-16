@@ -1,10 +1,10 @@
-package payloadutilitis;
+package AppLib.ApiLib.payloadutils;
 
 
 import AppLib.ApiLib.pojolib.AlumniPojo;
+import CoreLib.VariableUtil.GlobalVariable;
 import CoreLib.javautilities.BaseClass;
 import CoreLib.stringutil.StringUtils;
-import variableutility.GlobalVariable;
 
 public class PayloadAlumniNews extends AlumniPojo {
 	
