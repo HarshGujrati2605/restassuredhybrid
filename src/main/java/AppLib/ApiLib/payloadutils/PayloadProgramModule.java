@@ -160,9 +160,10 @@ public static String createProgramBatchPayload() {
 
 
 	public static String CreateCoursePayload() {
-		
+		setMarktype("Grade");
 		setCoursecode(StringUtils.randomCourseCodeGenerator());
 	    setCoursename(StringUtils.randomCourseNamegenerator());
+	    setCoursedepartment("Academic Affairs");
 		
 		return "{\n"
 				+ "    \"courseCode\": \""+getCoursecode()+"\",\n"
