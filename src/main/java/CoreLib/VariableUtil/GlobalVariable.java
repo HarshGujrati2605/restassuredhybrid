@@ -1,4 +1,4 @@
-package variableutility;
+package CoreLib.VariableUtil;
 
 import java.util.ArrayList;
 import java.util.List;

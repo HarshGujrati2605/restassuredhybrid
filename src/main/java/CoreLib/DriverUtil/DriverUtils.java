@@ -7,9 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import CoreLib.SeleniumUtil.SeleniumActions;
+import CoreLib.VariableUtil.GlobalVariable;
 import CoreLib.javautilities.BaseClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import variableutility.GlobalVariable;
 
 /**
  * 
