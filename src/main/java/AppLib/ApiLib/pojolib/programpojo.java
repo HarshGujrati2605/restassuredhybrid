@@ -108,4 +108,36 @@ public class programpojo extends GlobalVariable {
 		GlobalVariable.batchcourseidreceived = batchcourseidreceived;
 	}
 
+	public static String getSectiontype() {
+		return sectiontype;
+	}
+
+	public static void setSectiontype(String sectiontype) {
+		GlobalVariable.sectiontype = sectiontype;
+	}
+
+	public static String getAcademicterm() {
+		return academicterm;
+	}
+
+	public static void setAcademicterm(String academicterm) {
+		GlobalVariable.academicterm = academicterm;
+	}
+
+	public static String getMarktype() {
+		return marktype;
+	}
+
+	public static void setMarktype(String marktype) {
+		GlobalVariable.marktype = marktype;
+	}
+	
+	public static String getCoursedepartment() {
+		return coursedepartment;
+	}
+
+	public static void setCoursedepartment(String coursedepartment) {
+		GlobalVariable.coursedepartment = coursedepartment;
+	}
+
 }

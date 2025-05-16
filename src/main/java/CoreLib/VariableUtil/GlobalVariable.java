@@ -61,5 +61,12 @@ public class GlobalVariable {
 
 	public static String applicationId;
 
+	public static String sectiontype;
+	
+	public static String academicterm;
+	
+    public static String marktype;
+    
+    public static String coursedepartment;
 	
 }
