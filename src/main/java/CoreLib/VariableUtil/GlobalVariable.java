@@ -55,7 +55,7 @@ public class GlobalVariable {
 	
 	public static String applicantlastname;
 
-	public static String applicantAdmissionId;
+	public static String applicantAdmissionId;	
 
 	public static String applicationId;
 
@@ -66,5 +66,9 @@ public class GlobalVariable {
     public static String marktype;
     
     public static String coursedepartment;
+
+	public static String academyLocation;
+
+	public static String AdmissionId;
 	
 }

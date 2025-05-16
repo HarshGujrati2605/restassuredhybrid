@@ -5,6 +5,7 @@
     <classes>      
 		<class name="testlib.admissions.TC01CreateandApplication"/>
         <class name="testlib.login.TC01Login"/>
+        <class name="testlib.admissions.TC02ApproveApplication"/>
                 
     </classes>
   </test> <!-- Test -->
