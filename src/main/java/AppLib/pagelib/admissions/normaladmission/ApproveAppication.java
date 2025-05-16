@@ -3,6 +3,7 @@ package AppLib.pagelib.admissions.normaladmission;
 import org.openqa.selenium.By;
 
 import AppLib.ApiLib.pojolib.CreateApplicationPoJo;
+import CoreLib.Locatorutil.CommonLocatos;
 import CoreLib.SeleniumUtil.SeleniumActions;
 
 public class ApproveAppication extends CreateApplicationPoJo {
@@ -15,9 +16,12 @@ public class ApproveAppication extends CreateApplicationPoJo {
 		SeleniumActions.iClickElementByLocator(applicationmodule, "Program module");
 				
 	}
-	public void SearchApplicationId() throws Exception {
+	public static void SearchApplicationId() throws Exception {
 		SeleniumActions.clickOnElementAndType(searchapplicationname, getLastname(), "Select Application Id");
 		SeleniumActions.iClickEnter(searchapplicationname);
+		
+		CommonLocatos.iClickButtonOfChoice("Search");
+		
 	}
 
 	

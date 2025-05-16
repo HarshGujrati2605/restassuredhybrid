@@ -28,7 +28,7 @@ public class GlobalVariable {
 	public static int alumninewsid;
 
 	public static String alumninewscode;
-
+	public static String Dayfordatepicker = "20";
 	public static String programename;
 
 	public static String programcode;
