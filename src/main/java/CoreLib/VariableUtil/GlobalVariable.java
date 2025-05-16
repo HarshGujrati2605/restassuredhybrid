@@ -3,8 +3,6 @@ package CoreLib.VariableUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.WebDriver;
-
 import AppLib.ApiLib.pojolib.Api;
 
 public class GlobalVariable {
