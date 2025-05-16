@@ -55,4 +55,15 @@ public class GlobalVariable {
 	
 	public static String batchcourseidreceived;
 	
+	public static String sectiontype;
+	
+	public static String academicterm;
+	
+    public static String marktype;
+    
+    public static String coursedepartment;
+
+	
+
+	
 }
