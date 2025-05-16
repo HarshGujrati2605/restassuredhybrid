@@ -2,10 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="testlib.program.TC01ProgramTestCases"/>
+    <classes>      
+		<class name="testlib.admissions.TC01CreateandApplication"/>
         <class name="testlib.login.TC01Login"/>
-        <class name="testlib.program.TC02SeachProgramAndParameterized"/>
+                
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

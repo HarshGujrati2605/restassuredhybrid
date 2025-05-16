@@ -1,4 +1,4 @@
-package testlib.admissions;
+package testlib.login;
 
 import java.io.IOException;
 

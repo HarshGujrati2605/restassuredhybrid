@@ -25,5 +25,12 @@ public class JsonConversionUtilities {
 		int data = jspath.getInt(jsonvaribale);
 		return data;
 	}
+	
+	public static boolean getRawToJsonDataBoolean(String response, String jsonvaribale) {
+
+		JsonPath jspath = new JsonPath(response);
+		boolean data = jspath.getBoolean(jsonvaribale);
+		return data;
+	}
 
 }

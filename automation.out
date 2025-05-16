@@ -1,17 +1,10 @@
-2025-05-15 18:05:210 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:338 INFO  SeleniumActions:189 - i Click on the element Admin Tab
-2025-05-15 18:05:342 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:599 INFO  SeleniumActions:189 - i Click on the element Username field
-2025-05-15 18:05:727 INFO  SeleniumActions:189 - Clicked onUsername field
-2025-05-15 18:05:730 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:864 INFO  SeleniumActions:189 - i Click on the element Password field
-2025-05-15 18:05:943 INFO  SeleniumActions:189 - Clicked onPassword field
-2025-05-15 18:05:960 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:59 INFO  SeleniumActions:189 - i Click on the element Login button
-2025-05-15 18:05:81 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:960 INFO  SeleniumActions:189 - i Click on the element Program and courses module
-2025-05-15 18:05:980 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:178 INFO  SeleniumActions:189 - i Click on the element Program module
-2025-05-15 18:05:182 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-15 18:05:17 INFO  SeleniumActions:189 - i Click on the element Search Grade or program
-2025-05-15 18:05:122 INFO  SeleniumActions:189 - Clicked onSearch Grade or program
+2025-05-16 13:05:982 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 13:05:112 INFO  SeleniumActions:189 - i Click on the element Admin Tab
+2025-05-16 13:05:114 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 13:05:428 INFO  SeleniumActions:189 - i Click on the element Username field
+2025-05-16 13:05:678 INFO  SeleniumActions:189 - Clicked onUsername field
+2025-05-16 13:05:681 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 13:05:841 INFO  SeleniumActions:189 - i Click on the element Password field
+2025-05-16 13:05:950 INFO  SeleniumActions:189 - Clicked onPassword field
+2025-05-16 13:05:966 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 13:05:79 INFO  SeleniumActions:189 - i Click on the element Login button

@@ -3,8 +3,6 @@ package CoreLib.VariableUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.WebDriver;
-
 import AppLib.ApiLib.pojolib.Api;
 
 public class GlobalVariable {
@@ -30,7 +28,7 @@ public class GlobalVariable {
 	public static int alumninewsid;
 
 	public static String alumninewscode;
-
+	public static String Dayfordatepicker = "20";
 	public static String programename;
 
 	public static String programcode;
@@ -55,6 +53,12 @@ public class GlobalVariable {
 	
 	public static String batchcourseidreceived;
 	
+	public static String applicantlastname;
+
+	public static String applicantAdmissionId;
+
+	public static String applicationId;
+
 	public static String sectiontype;
 	
 	public static String academicterm;
@@ -62,8 +66,5 @@ public class GlobalVariable {
     public static String marktype;
     
     public static String coursedepartment;
-
-	
-
 	
 }
