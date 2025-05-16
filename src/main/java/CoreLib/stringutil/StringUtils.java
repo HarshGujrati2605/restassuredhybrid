@@ -1,5 +1,8 @@
 package CoreLib.stringutil;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import org.apache.commons.lang3.RandomStringUtils;
 
 import com.github.javafaker.Faker;
@@ -48,15 +51,27 @@ public class StringUtils {
 	public static String randomPeriodNamegenerator() {
 		return "period"+ RandomStringUtils.randomAlphabetic(9);
 
-	}
-	
-	
+	}	
 	
 	public static String randomBatchGenerator() {
 		Faker faker = new Faker();
 		String name = faker.animal().name();
 		return "batch"+ name + RandomStringUtils.randomAlphanumeric(4);
 
+	}
+	
+	public static String randomApplicantLastname() {
+		Faker faker = new Faker();
+		String name = faker.name().lastName();
+		return name + RandomStringUtils.randomAlphanumeric(5);
+	}
+	
+	public static String todayDate() {
+		 LocalDateTime now = LocalDateTime.now();     
+	     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");     
+	     String formattedDate = now.format(formatter);
+	     System.out.println("Formatted Date: " + formattedDate);
+		return formattedDate;
 	}
 
 }

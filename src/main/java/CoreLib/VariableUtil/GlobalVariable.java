@@ -55,4 +55,11 @@ public class GlobalVariable {
 	
 	public static String batchcourseidreceived;
 	
+	public static String applicantlastname;
+
+	public static String applicantAdmissionId;
+
+	public static String applicationId;
+
+	
 }
