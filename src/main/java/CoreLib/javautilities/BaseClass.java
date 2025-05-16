@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
 import CoreLib.DriverUtil.WebDriverSingleton;
-import variableutility.GlobalVariable;
+import CoreLib.VariableUtil.GlobalVariable;
 
 public class BaseClass extends WebDriverSingleton{
 	

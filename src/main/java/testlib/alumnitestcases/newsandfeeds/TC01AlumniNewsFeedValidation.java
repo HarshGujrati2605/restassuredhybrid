@@ -8,15 +8,15 @@ import java.util.Collections;
 
 import org.testng.annotations.Test;
 
+import AppLib.ApiLib.payloadutils.PayloadAlumniNews;
 import AppLib.ApiLib.pojolib.AlumniPojo;
 import AppLib.ApiLib.sepcbuilderutil.Academiaspecs;
 import CoreLib.JsonUtil.JsonConversionUtilities;
+import CoreLib.VariableUtil.GlobalVariable;
 import CoreLib.javautilities.BaseClass;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import payloadutilitis.PayloadAlumniNews;
-import variableutility.GlobalVariable;
 
 public class TC01AlumniNewsFeedValidation extends AlumniPojo{
 

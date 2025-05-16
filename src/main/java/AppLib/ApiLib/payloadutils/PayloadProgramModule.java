@@ -1,8 +1,8 @@
 package AppLib.ApiLib.payloadutils;
 
 import AppLib.ApiLib.pojolib.programpojo;
+import CoreLib.VariableUtil.GlobalVariable;
 import CoreLib.stringutil.StringUtils;
-import variableutility.GlobalVariable;
 
 public class PayloadProgramModule extends programpojo{
 	

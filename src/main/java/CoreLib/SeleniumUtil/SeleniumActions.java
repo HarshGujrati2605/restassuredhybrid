@@ -35,7 +35,7 @@ import com.github.javafaker.Faker;
 
 import CoreLib.DriverUtil.DriverUtils;
 import CoreLib.Loggerutil.LoggerHelper;
-import variableutility.GlobalVariable;
+import CoreLib.VariableUtil.GlobalVariable;
 
 
 /**

@@ -1,4 +1,4 @@
-package payloadutilitis;
+package AppLib.ApiLib.payloadutils;
 
 public class LibraryPojoclass {
 
