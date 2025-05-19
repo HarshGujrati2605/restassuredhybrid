@@ -1,10 +1,138 @@
-2025-05-16 13:05:982 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-16 13:05:112 INFO  SeleniumActions:189 - i Click on the element Admin Tab
-2025-05-16 13:05:114 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-16 13:05:428 INFO  SeleniumActions:189 - i Click on the element Username field
-2025-05-16 13:05:678 INFO  SeleniumActions:189 - Clicked onUsername field
-2025-05-16 13:05:681 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-16 13:05:841 INFO  SeleniumActions:189 - i Click on the element Password field
-2025-05-16 13:05:950 INFO  SeleniumActions:189 - Clicked onPassword field
-2025-05-16 13:05:966 INFO  SeleniumActions:189 - Waiting for element to be visible
-2025-05-16 13:05:79 INFO  SeleniumActions:189 - i Click on the element Login button
+2025-05-16 18:05:467 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:608 INFO  SeleniumActions:189 - i Click on the element Admin Tab
+2025-05-16 18:05:610 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:888 INFO  SeleniumActions:189 - i Click on the element Username field
+2025-05-16 18:05:72 INFO  SeleniumActions:189 - Clicked onUsername field
+2025-05-16 18:05:76 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:269 INFO  SeleniumActions:189 - i Click on the element Password field
+2025-05-16 18:05:431 INFO  SeleniumActions:189 - Clicked onPassword field
+2025-05-16 18:05:438 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:533 INFO  SeleniumActions:189 - i Click on the element Login button
+2025-05-16 18:05:557 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:71 INFO  SeleniumActions:189 - i Click on the element Admission Module
+2025-05-16 18:05:85 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:266 INFO  SeleniumActions:189 - i Click on the element Application Sub module
+2025-05-16 18:05:269 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:960 INFO  SeleniumActions:189 - i Click on the element Select Application Id
+2025-05-16 18:05:50 INFO  SeleniumActions:189 - Clicked onSelect Application Id
+2025-05-16 18:05:56 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:138 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:94 INFO  SeleniumActions:189 - i Click on the element Search
+2025-05-16 18:05:108 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:494 INFO  SeleniumActions:189 - i Click on the element Select the applicant
+2025-05-16 18:05:495 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:532 INFO  SeleniumActions:189 - i Click on the element Click on Edit button
+2025-05-16 18:05:549 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:152 INFO  SeleniumActions:189 - i Click on the element Click Approve application button
+2025-05-16 18:05:167 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:304 INFO  SeleniumActions:189 - i Click on the element Program is selected
+2025-05-16 18:05:309 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:428 INFO  SeleniumActions:189 - i Click on the element Approval reason dripdown arrow
+2025-05-16 18:05:440 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:547 INFO  SeleniumActions:189 - i Click on the element Aprroval reason is selected
+2025-05-16 18:05:547 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:776 INFO  SeleniumActions:189 - i Click on the element window
+2025-05-16 18:05:779 INFO  SeleniumActions:189 - Getting the text fromAdmission Id
+2025-05-16 18:05:779 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:758 INFO  SeleniumActions:189 - Waiting for elements to be visible
+2025-05-16 18:05:890 INFO  SeleniumActions:189 - i Click on the element close button
+2025-05-16 18:05:221 INFO  SeleniumActions:189 - i Click on the element close button
+2025-05-16 18:05:397 INFO  SeleniumActions:189 - i Click on the element close button
+2025-05-16 18:05:431 INFO  SeleniumActions:189 - All tabs are closed already
+2025-05-16 18:05:442 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:608 INFO  SeleniumActions:189 - i Click on the element Admission Module
+2025-05-16 18:05:609 INFO  SeleniumActions:189 - i Click on the element Admission Module
+2025-05-16 18:05:626 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:919 INFO  SeleniumActions:189 - i Click on the element Selectionstage Sub module
+2025-05-16 18:05:933 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:49 INFO  SeleniumActions:189 - i Click on the element Click Academy Location Arrow
+2025-05-16 18:05:74 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:184 INFO  SeleniumActions:189 - i Click on the element Select Assgin Calender Arrow
+2025-05-16 18:05:199 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:303 INFO  SeleniumActions:189 - i Click on the element Click Program group Arrow
+2025-05-16 18:05:330 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:437 INFO  SeleniumActions:189 - i Click on the element Select Program Group Name
+2025-05-16 18:05:440 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:589 INFO  SeleniumActions:189 - i Click on the element Select Program Name
+2025-05-16 18:05:691 INFO  SeleniumActions:189 - Clicked onSelect Program Name
+2025-05-16 18:05:695 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:862 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:995 INFO  SeleniumActions:189 - i Click on the element Arrow Batch dropdown
+2025-05-16 18:05:26 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:159 INFO  SeleniumActions:189 - i Click on the element Value for batch is DEPT16/Automation test1/1
+2025-05-16 18:05:173 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:277 INFO  SeleniumActions:189 - i Click on the element seat type arrow
+2025-05-16 18:05:298 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:400 INFO  SeleniumActions:189 - i Click on the element Selected seat type Reserved Seat
+2025-05-16 18:05:406 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:499 INFO  SeleniumActions:189 - i Click on the element Selection stage arrow
+2025-05-16 18:05:520 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:618 INFO  SeleniumActions:189 - i Click on the element Automation Written
+2025-05-16 18:05:618 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:424 INFO  SeleniumActions:189 - i Click on the element Search
+2025-05-16 18:05:436 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:555 INFO  SeleniumActions:189 - i Click on the element Select Evalution Applicant
+2025-05-16 18:05:568 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:771 INFO  SeleniumActions:189 - i Click on the element Evaluate applicant button
+2025-05-16 18:05:771 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:912 INFO  SeleniumActions:189 - i Click on the element Yes button clicked
+2025-05-16 18:05:918 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:600 INFO  SeleniumActions:189 - i Click on the element More filters
+2025-05-16 18:05:628 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:735 INFO  SeleniumActions:189 - i Click on the element stage status stage
+2025-05-16 18:05:751 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:852 INFO  SeleniumActions:189 - i Click on the element Ready to promote
+2025-05-16 18:05:853 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:980 INFO  SeleniumActions:189 - i Click on the element Search
+2025-05-16 18:05:990 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:108 INFO  SeleniumActions:189 - i Click on the element Select Evalution Applicant
+2025-05-16 18:05:114 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:251 INFO  SeleniumActions:189 - i Click on the element Promote to next stage
+2025-05-16 18:05:252 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:367 INFO  SeleniumActions:189 - i Click on the element Yes button clicked
+2025-05-16 18:05:381 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:68 INFO  SeleniumActions:189 - i Click on the element Click Academy Location Arrow
+2025-05-16 18:05:88 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:168 INFO  SeleniumActions:189 - i Click on the element Select Assgin Calender Arrow
+2025-05-16 18:05:190 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:271 INFO  SeleniumActions:189 - i Click on the element Click Program group Arrow
+2025-05-16 18:05:292 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:376 INFO  SeleniumActions:189 - i Click on the element Select Program Group Name
+2025-05-16 18:05:378 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:514 INFO  SeleniumActions:189 - i Click on the element Select Program Name
+2025-05-16 18:05:610 INFO  SeleniumActions:189 - Clicked onSelect Program Name
+2025-05-16 18:05:616 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:791 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:877 INFO  SeleniumActions:189 - i Click on the element Arrow Batch dropdown
+2025-05-16 18:05:884 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:10 INFO  SeleniumActions:189 - i Click on the element Value for batch is DEPT16/Automation test1/1
+2025-05-16 18:05:15 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:99 INFO  SeleniumActions:189 - i Click on the element seat type arrow
+2025-05-16 18:05:133 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:230 INFO  SeleniumActions:189 - i Click on the element Selected seat type Reserved Seat
+2025-05-16 18:05:237 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:321 INFO  SeleniumActions:189 - i Click on the element Selection stage arrow
+2025-05-16 18:05:342 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:446 INFO  SeleniumActions:189 - i Click on the element Automation Interview
+2025-05-16 18:05:447 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:234 INFO  SeleniumActions:189 - i Click on the element Search
+2025-05-16 18:05:240 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:367 INFO  SeleniumActions:189 - i Click on the element Select Evalution Applicant
+2025-05-16 18:05:392 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:515 INFO  SeleniumActions:189 - i Click on the element Evaluate applicant button
+2025-05-16 18:05:515 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:634 INFO  SeleniumActions:189 - i Click on the element Yes button clicked
+2025-05-16 18:05:653 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:767 INFO  SeleniumActions:189 - i Click on the element More filters
+2025-05-16 18:05:796 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:273 INFO  SeleniumActions:189 - i Click on the element stage status stage
+2025-05-16 18:05:297 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:396 INFO  SeleniumActions:189 - i Click on the element Ready to promote
+2025-05-16 18:05:396 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:348 INFO  SeleniumActions:189 - i Click on the element Search
+2025-05-16 18:05:368 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:479 INFO  SeleniumActions:189 - i Click on the element Select Evalution Applicant
+2025-05-16 18:05:488 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:637 INFO  SeleniumActions:189 - i Click on the element Promote to next stage
+2025-05-16 18:05:637 INFO  SeleniumActions:189 - Waiting for element to be visible
+2025-05-16 18:05:757 INFO  SeleniumActions:189 - i Click on the element Yes button clicked

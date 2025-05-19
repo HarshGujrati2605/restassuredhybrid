@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T13:14:04 IST" name="Suite" finished-at="2025-05-16T13:14:18 IST" duration-ms="13114">
+  <suite started-at="2025-05-16T18:23:10 IST" name="Suite" finished-at="2025-05-16T18:26:11 IST" duration-ms="181002">
     <groups>
     </groups>
-    <test started-at="2025-05-16T13:14:04 IST" name="Test" finished-at="2025-05-16T13:14:18 IST" duration-ms="13114">
-      <class name="testlib.admissions.TC01CreateandApproveApplication">
-        <test-method signature="ValidateApplicationStatus()[pri:0, instance:testlib.admissions.TC01CreateandApproveApplication@69e153c5]" started-at="2025-05-16T13:14:05 IST" name="ValidateApplicationStatus" finished-at="2025-05-16T13:14:06 IST" duration-ms="1985" status="PASS">
+    <test started-at="2025-05-16T18:23:10 IST" name="Test" finished-at="2025-05-16T18:26:11 IST" duration-ms="181002">
+      <class name="testlib.admissions.TC01CreateandApplication">
+        <test-method signature="ValidateApplicationStatus()[pri:0, instance:testlib.admissions.TC01CreateandApplication@3e8c3cb]" started-at="2025-05-16T18:23:10 IST" name="ValidateApplicationStatus" finished-at="2025-05-16T18:23:12 IST" duration-ms="2004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateApplicationStatus -->
-        <test-method signature="creatNewApplication()[pri:0, instance:testlib.admissions.TC01CreateandApproveApplication@69e153c5]" started-at="2025-05-16T13:14:06 IST" name="creatNewApplication" finished-at="2025-05-16T13:14:07 IST" depends-on-methods="testlib.admissions.TC01CreateandApproveApplication.ValidateApplicationStatus" duration-ms="857" status="PASS">
+        <test-method signature="creatNewApplication()[pri:0, instance:testlib.admissions.TC01CreateandApplication@3e8c3cb]" started-at="2025-05-16T18:23:12 IST" name="creatNewApplication" finished-at="2025-05-16T18:23:13 IST" depends-on-methods="testlib.admissions.TC01CreateandApplication.ValidateApplicationStatus" duration-ms="824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatNewApplication -->
-        <test-method signature="GenerateApplicationId()[pri:0, instance:testlib.admissions.TC01CreateandApproveApplication@69e153c5]" started-at="2025-05-16T13:14:07 IST" name="GenerateApplicationId" finished-at="2025-05-16T13:14:08 IST" depends-on-methods="testlib.admissions.TC01CreateandApproveApplication.creatNewApplication" duration-ms="843" status="PASS">
+        <test-method signature="GenerateApplicationId()[pri:0, instance:testlib.admissions.TC01CreateandApplication@3e8c3cb]" started-at="2025-05-16T18:23:13 IST" name="GenerateApplicationId" finished-at="2025-05-16T18:23:14 IST" depends-on-methods="testlib.admissions.TC01CreateandApplication.creatNewApplication" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GenerateApplicationId -->
-        <test-method signature="SubmitApplicationForm()[pri:0, instance:testlib.admissions.TC01CreateandApproveApplication@69e153c5]" started-at="2025-05-16T13:14:08 IST" name="SubmitApplicationForm" finished-at="2025-05-16T13:14:09 IST" depends-on-methods="testlib.admissions.TC01CreateandApproveApplication.GenerateApplicationId" duration-ms="538" status="PASS">
+        <test-method signature="SubmitApplicationForm()[pri:0, instance:testlib.admissions.TC01CreateandApplication@3e8c3cb]" started-at="2025-05-16T18:23:14 IST" name="SubmitApplicationForm" finished-at="2025-05-16T18:23:14 IST" depends-on-methods="testlib.admissions.TC01CreateandApplication.GenerateApplicationId" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitApplicationForm -->
-        <test-method signature="ValidateApplicationData()[pri:0, instance:testlib.admissions.TC01CreateandApproveApplication@69e153c5]" started-at="2025-05-16T13:14:09 IST" name="ValidateApplicationData" finished-at="2025-05-16T13:14:09 IST" depends-on-methods="testlib.admissions.TC01CreateandApproveApplication.SubmitApplicationForm" duration-ms="169" status="PASS">
+        <test-method signature="ValidateApplicationData()[pri:0, instance:testlib.admissions.TC01CreateandApplication@3e8c3cb]" started-at="2025-05-16T18:23:14 IST" name="ValidateApplicationData" finished-at="2025-05-16T18:23:14 IST" depends-on-methods="testlib.admissions.TC01CreateandApplication.SubmitApplicationForm" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateApplicationData -->
-        <test-method signature="ApproveApplicationForm()[pri:0, instance:testlib.admissions.TC01CreateandApproveApplication@69e153c5]" started-at="2025-05-16T13:14:09 IST" name="ApproveApplicationForm" finished-at="2025-05-16T13:14:09 IST" depends-on-methods="testlib.admissions.TC01CreateandApproveApplication.ValidateApplicationData" duration-ms="508" status="PASS">
+        <test-method signature="ApproveApplicationForm()[pri:0, instance:testlib.admissions.TC01CreateandApplication@3e8c3cb]" started-at="2025-05-16T18:23:14 IST" name="ApproveApplicationForm" finished-at="2025-05-16T18:23:15 IST" depends-on-methods="testlib.admissions.TC01CreateandApplication.ValidateApplicationData" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApproveApplicationForm -->
-      </class> <!-- testlib.admissions.TC01CreateandApproveApplication -->
+      </class> <!-- testlib.admissions.TC01CreateandApplication -->
       <class name="testlib.login.TC01Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testlib.login.TC01Login@1a75e76a]" started-at="2025-05-16T13:14:00 IST" name="setup" finished-at="2025-05-16T13:14:04 IST" duration-ms="4172" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testlib.login.TC01Login@5386659f]" started-at="2025-05-16T18:23:06 IST" name="setup" finished-at="2025-05-16T18:23:10 IST" duration-ms="4129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testlib.login.TC01Login@1a75e76a]" started-at="2025-05-16T13:14:09 IST" name="validateLogin" data-provider="readDataFromExcel" finished-at="2025-05-16T13:14:18 IST" duration-ms="8128" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testlib.login.TC01Login@5386659f]" started-at="2025-05-16T18:23:15 IST" name="validateLogin" data-provider="readDataFromExcel" finished-at="2025-05-16T18:23:23 IST" duration-ms="8111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testlib.login.TC01Login@1a75e76a]" started-at="2025-05-16T13:14:18 IST" name="validateLogin" data-provider="readDataFromExcel" finished-at="2025-05-16T13:14:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testlib.login.TC01Login@5386659f]" started-at="2025-05-16T18:23:23 IST" name="validateLogin" data-provider="readDataFromExcel" finished-at="2025-05-16T18:23:23 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,6 +80,16 @@
           </reporter-output>
         </test-method> <!-- validateLogin -->
       </class> <!-- testlib.login.TC01Login -->
+      <class name="testlib.admissions.TC02ApproveApplication">
+        <test-method signature="searchApplicationId()[pri:0, instance:testlib.admissions.TC02ApproveApplication@14028087]" started-at="2025-05-16T18:23:23 IST" name="searchApplicationId" finished-at="2025-05-16T18:24:15 IST" duration-ms="51895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApplicationId -->
+        <test-method signature="selectionStage()[pri:0, instance:testlib.admissions.TC02ApproveApplication@14028087]" started-at="2025-05-16T18:24:15 IST" name="selectionStage" finished-at="2025-05-16T18:26:11 IST" depends-on-methods="testlib.admissions.TC02ApproveApplication.searchApplicationId" duration-ms="116323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectionStage -->
+      </class> <!-- testlib.admissions.TC02ApproveApplication -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

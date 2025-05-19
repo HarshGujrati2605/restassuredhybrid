@@ -43,11 +43,11 @@ public class TC01CreateandApplication extends CreateApplicationPoJo {
 		String response = given().log().all().spec(Academiaspecs.academiaspecbuilder()).contentType(ContentType.JSON)
 				.accept(ContentType.JSON).body(CreateApplicationPayload.CreaApplicatetionpayloaddata()).log().all().when().post()
 				.then().statusCode(200).extract().response().asString();
-		GlobalVariable.applicantAdmissionId = JsonConversionUtilities.getRawToJsonData(response, "formToken");
+//		GlobalVariable.applicantAdmissionId = JsonConversionUtilities.getRawToJsonData(response, "formToken");
 		GlobalVariable.applicationId = JsonConversionUtilities.getRawToJsonData(response, "applicationId");
 		applicantPersonId = JsonConversionUtilities.getRawToJsonData(response, "personId");
 		
-		System.out.println(applicantAdmissionId);
+//		System.out.println(applicantAdmissionId);
 		System.out.println(applicationId);
 		System.out.println(applicantPersonId);
 		}

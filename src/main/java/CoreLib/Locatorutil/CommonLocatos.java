@@ -103,7 +103,7 @@ public class CommonLocatos extends SeleniumActions {
 		}
 	}
 
-	public void iClickActionButton(String option) throws InterruptedException {
+	public static void iClickActionButton(String option) throws InterruptedException {
 		try {
 			System.out.println("Inside BTN conditon");
 //			WebElement button = getElement(By.xpath(
@@ -130,7 +130,7 @@ public class CommonLocatos extends SeleniumActions {
 		iClick(button, option);
 	}
 
-	public void iClickSaveButton(String type) throws InterruptedException {
+	public static void iClickSaveButton(String type) throws InterruptedException {
 		WebElement button;
 		switch (type) {
 		case "window":
@@ -274,7 +274,7 @@ public class CommonLocatos extends SeleniumActions {
 
 	}
 
-	public void iClickYes() throws InterruptedException {
+	public static void iClickYes() throws InterruptedException {
 
 		WebElement yesbutton = getElement(YesButton);
 		iClick(yesbutton, "Yes button clicked");
@@ -374,7 +374,7 @@ public class CommonLocatos extends SeleniumActions {
 //
 //	}
 
-	public void closealltabs() throws InterruptedException {
+	public static void closealltabs() throws InterruptedException {
 		// iClickJSEByLocator(firsttab, "first tab");
 
 		try {

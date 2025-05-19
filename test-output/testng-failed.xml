@@ -3,16 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testlib.admissions.TC01CreateandApproveApplication">
+      <class name="testlib.admissions.TC02ApproveApplication">
         <methods>
-          <include name="GenerateApplicationId"/>
-          <include name="SubmitApplicationForm"/>
-          <include name="ValidateApplicationStatus"/>
-          <include name="ValidateApplicationData"/>
-          <include name="creatNewApplication"/>
-          <include name="ApproveApplicationForm"/>
+          <include name="selectionStage"/>
+          <include name="searchApplicationId"/>
         </methods>
-      </class> <!-- testlib.admissions.TC01CreateandApproveApplication -->
+      </class> <!-- testlib.admissions.TC02ApproveApplication -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
