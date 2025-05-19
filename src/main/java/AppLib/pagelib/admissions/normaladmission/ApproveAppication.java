@@ -166,6 +166,15 @@ public class ApproveAppication extends CreateApplicationPoJo {
 			SeleniumActions.iClickElementByLocator(promoToNextStgBtn, "Promote to next stage");
 			CommonLocatos.iClickYes();
 		}
+		
+		public static void ApproveAdmission() throws Exception {
+			SeleniumActions.clickOnElementAndType(searchapplicationname, getLastname(), "Select Application Id");
+			SeleniumActions.iClickEnter(searchapplicationname);		
+			CommonLocatos.iClickButtonOfChoice("Search");
+			SeleniumActions.iClickElementByLocator(selectapplicant, "Select the applicant");
+			CommonLocatos.iClickActionButton("Edit");		
+			
+		}
 
 		
 	
